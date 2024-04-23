@@ -1,1 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: #0e7e12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  height: 500px;
+  width: 300px;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.top-suit {
+  position: absolute;
+  left: 20px;
+  font-size: 80px;
+}
+
+.button-suit {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80px;
+  transform: scaleY(-1);
+}
+.number {
+  display: flex;
+  justify-content: center;
+  margin: 50%;
+  font-size: 80px;
+}
+.red {
+  color: red;
+}
